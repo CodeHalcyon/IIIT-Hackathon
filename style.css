@@ -81,10 +81,17 @@ input{
 
 .overview{
     margin-block: 30px;
+    display: flex;
 }
 
 .overview-left{
-    width: 50%;
+    /* width: 50%; */
+}
+
+
+.overview-right{
+    width: 100%;
+    padding-inline: 40px;
 }
 
 .skill-list{
@@ -100,8 +107,22 @@ input{
 .skill-list li{
     display: inline-block;
     padding: 10px;
-    background: gray;
+    background: rgb(189, 186, 186);
     border-radius: 10px;
     width: 70px;
     text-align: center;
+}
+
+.summary-btn{
+    padding: 10px;
+    width: 150px;
+    margin-top: 10px;
+    background: transparent;
+    outline: none;
+    color: rgb(75, 53, 240);
+    font-weight: bold;
+    font-size: large;
+    border: 3px solid rgb(75, 53, 240);
+    border-radius: 10px;
+
 }
