@@ -59,6 +59,22 @@
 td{
     padding: 10px;
 }
+
+.skill-box{
+    display: flex;
+}
 .skills>h1{
     margin-bottom: 10px;
+}
+
+.skill-left, .skill-right{
+    width: 50%;
+}
+
+.skill-table{
+    width: 100%;
+}
+
+input{
+    width: 100%;
 }
