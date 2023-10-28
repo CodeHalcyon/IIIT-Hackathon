@@ -78,3 +78,30 @@ td{
 input{
     width: 100%;
 }
+
+.overview{
+    margin-block: 30px;
+}
+
+.overview-left{
+    width: 50%;
+}
+
+.skill-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.skill-list li{
+    display: inline-block;
+    padding: 10px;
+    background: gray;
+    border-radius: 10px;
+    width: 70px;
+    text-align: center;
+}
